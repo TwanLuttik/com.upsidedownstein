@@ -1,6 +1,6 @@
 <template>
   <div id="navigationbar">
-    <p class="title">UPSIDE|DOWNSTEIN</p>
+    <p class="title">UPSIDE | DOWNSTEIN</p>
   </div>
 </template>
 
