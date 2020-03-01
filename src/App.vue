@@ -66,9 +66,7 @@ export default {
 .mainIMG {
   width: 50%;
   border-radius: 20px;
-  opacity: 0.2;
   cursor: pointer;
-
 
   transition: transform .2s ease-in-out, opacity .2s ease-in-out;
   &:hover {
