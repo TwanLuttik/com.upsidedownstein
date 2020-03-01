@@ -66,7 +66,7 @@ export default {
 .mainIMG {
   width: 50%;
   border-radius: 20px;
-  opacity: 20;
+  opacity: 0.2;
   cursor: pointer;
 
 
