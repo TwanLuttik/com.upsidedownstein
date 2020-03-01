@@ -4,7 +4,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-document.title = 'UPSIDEDOWNSTEIN'
+document.title = 'UPSIDE | DOWNSTEIN'
 
 new Vue({
   router,
