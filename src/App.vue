@@ -57,7 +57,7 @@ export default {
     .link {
       cursor: pointer;
       &:hover {
-        opacity: 50%;
+        opacity: 50;
       }
     }
   }
@@ -66,7 +66,7 @@ export default {
 .mainIMG {
   width: 50%;
   border-radius: 20px;
-  opacity: 20%;
+  opacity: 20;
   cursor: pointer;
 
 
@@ -84,7 +84,7 @@ export default {
 
 html,
 body {
-  height: 100%;
+  height: 100;
 }
 
 
