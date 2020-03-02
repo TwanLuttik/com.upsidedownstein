@@ -73,6 +73,9 @@ export default {
     transform: scale(1.02);
     opacity: 100;
   }
+  &:active {
+    transform: scale(1.04);
+  }
 }
 
 * {
