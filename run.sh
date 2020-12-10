@@ -1,13 +1,16 @@
 PROJECT_NAME="upsidedownstein"
 
-# run build
-npm run build
+# Install packages
+yarn
 
-# Create contents folder if not exist
+# Build
+yarn build
+
+# Remove the folder
+rm -rf /var/www/$PROJECT_NAME
+
+# Create folder
 mkdir /var/www/$PROJECT_NAME
 
-# remove all the contents in the www folder
-rm -rf /var/www/$PROJECT_NAME/*
-
-# move the dist to the contents folder
-mv -f dist/* /var/www/$PROJECT_NAME/
+# copy build to prod
+cp -r ./dist/* /var/www/$PROJECT_NAME/
